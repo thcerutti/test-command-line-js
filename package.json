@@ -1,0 +1,17 @@
+{
+  "name": "test-command-line-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "g11n-lint": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "/config"
+  ],
+  "dependencies": {
+    "commander": "^10.0.1"
+  }
+}

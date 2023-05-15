@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": [
+      "eslint:recommended"
+  ],
+  "plugins": [
+  ],
+  "rules": {
+    "unused-vars": "off"
+  },
+  "ignorePatterns": [
+    "src/**/*.test.ts",
+    "src/frontend/generated/*"
+  ]
+}
